@@ -1,0 +1,5 @@
+version: '2'
+services:
+  zqz:
+    build: .
+    ports: '3001:3003'
