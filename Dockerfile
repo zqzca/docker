@@ -8,5 +8,5 @@ WORKDIR /var/www
 ADD buildtmp/assets assets
 ADD buildtmp/zqz zqz
 
-ENTRYPOINT ["/var/www/zqz"]
+ENTRYPOINT ["/var/www/zqz", "-secure"]
 
