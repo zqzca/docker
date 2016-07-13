@@ -12,6 +12,7 @@ popd
 rm -rf buildtmp
 mkdir -p buildtmp/assets
 cp -r /mnt/code/zqz/front/build/* buildtmp/assets
+cp /mnt/code/zqz/front/src/router.js buildtmp/assets
 cp /mnt/code/zqz/back/zqz buildtmp/zqz
 
 docker build -t dylanj/zqz .
